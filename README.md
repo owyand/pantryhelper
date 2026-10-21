@@ -9,7 +9,7 @@ At its core, it is a database for inventory control with a touch UI and barcode 
 This is a concept I have had in mind for awhile and it is something that I have received much encouragement from others to create because they would use it. I want to have a showcase project which encompasses both hardware and software and which can be continually expanded upon. Eventually, I want to host the database somewhere else on my LAN and protect the network traffic.
 
 ## Success looks like
-10/24/2026 - CRUD database operations with a touch UI and a barcode scanner\
+10/24/2026 - CRUD database operations with a touch UI and basic data display on the screen.
 10/24/2026 - no AI code
 
 ## Non-goals
@@ -23,11 +23,17 @@ No auto-add feature
 
 ## Parts
 UI
-Inland 3.5 Inch TFT LCD Touch Screen Monitor New $19.99\
-Adafruit Industries Square RGB TTL TFT Display - 4" 480x480 - With Capacitive Touch - TL040WVS03CT $5.96\
-Adafruit Industries 2.8" TFT Touch Shield for Arduino with Capacitive Touch New $18.42
+Adafruit Industries 2.8" TFT Touch Shield for Arduino with Capacitive Touch
 
-Raspberry PI
+NODE
+HERO Arduino UNO R3
+
+DATA / BRAIN
+Raspberry PI 5
+
+The Node and Pi are initially connected on their own local network via a USB-A to USB-B. Eventually a wi-fi module will be added, or node hardware changed to allow for wireless connectivity between the node and "brain"
+
+Additionally, a scanner will be connected to the kitchen node in its final form. omitting for now
 
 ## Risks / unknowns
 What type of connection will exist between the components?\
