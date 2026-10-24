@@ -1,0 +1,8 @@
+#TFT display from Adafruit
+This display shield has a controller built into it with RAM buffering, 
+so that almost no work is done by the microcontroller. 
+This shield needs fewer pins than our v1 shield, so you can connect more sensors, 
+buttons and LEDs: 5 SPI pins for the display, 2 shared I2C pins for the touchscreen 
+controller and another pin for uSD card if you want to read images off of it.
+
+From Adafruit website
